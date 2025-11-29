@@ -2,8 +2,8 @@
 A repair version for https://github.com/corenel/pytorch-adda
 
 Repair include:
-1. achieve a similar performance of domain adaptation from MNIST (Source)
-to USPS (target) around 97.63%
+1. Achieve a similar performance of domain adaptation from MNIST (Source)
+to USPS (target) around 97.63% by removing line #61 at ./dataset/usps.py
 2. Fix some outdated functions to make them compatible with PyTorch 1.x.
 
 ## Environment
